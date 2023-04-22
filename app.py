@@ -22,7 +22,7 @@ list = [
 def Try():
     return render_template('home.html',list = list)
 
-@app.route("/button")
+@app.route("/list")
 def list_json():
     return jsonify(list)
 
