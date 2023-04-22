@@ -17,11 +17,11 @@
       learning something about web and flask. Thanks a lot!<br>haha
     </p>
     </div>
+    <h2 class="tex-center mt-2 mb-4">Open Positions</h2>
     <div>
       {% for l in list %}
-        {{l['title']}}
+        {% include 'items.html' %}
       {% endfor %}
-      <h2 class="tex-center mt-2 mb-4">Open Positions</h2>
     </div>
     <div>
     <p class="text-center">
