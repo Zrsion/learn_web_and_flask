@@ -4,8 +4,13 @@
     <title>test html</title>
   </head>
   <body>
-    This is plz, I am following the tutorial from https://www.youtube.com/watch?v=yBDHkveJUf4,
-    learning something about web and flask.
-  <br>haha
+    <p>This is plz, I am following the tutorial from https://www.youtube.com/watch?v=yBDHkveJUf4,
+      learning something about web and flask.<br>haha
+    </p>
+    <p>
+      {% for l in list %}
+  <div>{{l['title']}}</div>
+      {% endfor %}
+    </p>
   </body>
 </html>
